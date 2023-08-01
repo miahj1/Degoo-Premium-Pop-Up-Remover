@@ -9,6 +9,7 @@
 // @match        https://app.degoo.com/search*
 // @match        https://app.degoo.com/albums/*
 // @icon         https://www.google.com/s2/favicons?domain=degoo.com
+// @license MIT
 // ==/UserScript==
 
 (new MutationObserver(check)).observe(document, {childList: true, subtree: true});
